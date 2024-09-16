@@ -1,0 +1,11 @@
+from tkinter import*
+top=Tk()
+from tkinter import messagebox
+t1=Entry(top)
+t1.pack()
+
+b1=Button(top,text='name')
+b1.grid(x=40)
+
+
+top.mainloop()
